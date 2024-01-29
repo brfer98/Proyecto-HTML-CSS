@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de productos</title>
+    <link rel="stylesheet" href="../CSS/ListadoProductos.css">
+</head>
+<body>
+
+<!--HEADER-->
+    <header> <!--borrar id que no se usen-->
+        <a href="./Pagina principal.html"><div class="header"><img id="logoprincipal" src="../images/logo_general.jpg" alt=""></div></a>        
+        <div class="header" id="buscador">Buscar...</div>
+    <!--3 iconos de la derecha superior-->
+        <div id="header_right">
+            <a href="./Inicio Sesión.html"><div class="header"><img id="registro" src="../images/logo_login.png" alt=""></div></a>            
+            <div class="header"><img id="favorito" src="../images/logo_fav.png" alt="favoritos"></div>
+            <div class="header"> <img id="carrito" src="../images/logo_shopping_cart.png" alt="carrito"></div>
+        </div>
+    </header>
+
+<!--BARRA DE NAVEGACIÓN-->
+    <nav class="cuadros">
+        <div class="categorias">
+            <a href="ListadoProductos.html"><div class="subcat">Guitarras</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Bajos</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Teclados</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Percusión</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Otros Instrumentos</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Accesorios</div></a>
+            <a href="Builder.html"><div class="subcat">Construcción</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Servicio de reparación</div></a>
+        </div>
+    </nav>
+
+    <main>
+    <!--FILTROS DE PRODUCTOS-->
+        <aside id="filtro">
+            <div class="opciones">
+                <span>Categoría</span>
+                <label><input type="checkbox">Guitarras Acústicas</label>
+                <label><input type="checkbox">Guitarras Eléctricas</label>
+                <label><input type="checkbox">Guitarras Clásicas</label>
+                <label><input type="checkbox">Amplificadores de Guitarra</label>
+                <label><input type="checkbox">Bajos Eléctricos</label>
+                <label><input type="checkbox">Bajos Acústicos</label>
+                <label><input type="checkbox">Amplificadores de Bajo</label>
+                <label><input type="checkbox">Efectos para Guitarra y Bajo</label>
+            </div>
+
+            <div class="opciones">
+                <span>Fabricante</span>
+                <label><input type="checkbox">Fender</label>
+                <label><input type="checkbox">Gibson</label>
+                <label><input type="checkbox">Cort</label>
+                <label><input type="checkbox">Ibanez</label>
+                <label><input type="checkbox">Peavey</label>
+                <label><input type="checkbox">Squier</label>
+                <label><input type="checkbox">Epiphone</label>
+                <label><input type="checkbox">PRS</label>
+                <label><input type="checkbox">Mooer</label>
+                <label><input type="checkbox">Line 6</label>
+                <label><input type="checkbox">Zoom</label>
+            </div>
+            
+            <div class="opciones">
+                <span>Precio</span>
+                <input id="preciorange" type="range" min="1" max="4999" value="30">
+            </div>
+      
+            <div class="opciones">
+                <span>Color</span> 
+                <label><input type="checkbox">Rojo</label> 
+                <label><input type="checkbox">Azul</label> 
+                <label><input type="checkbox">Negro</label> 
+                <label><input type="checkbox">Rosa</label> 
+                <label><input type="checkbox">Natural</label>  
+            </div>
+        </aside>
+    
+    <!--LISTA DE PRODUCTOS-->
+        <section>
+        <!--PRIMERA FILA-->
+            <div class="itemrow">
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/img_producto1.jpg" alt="">
+                        <span>Fender Custom Shop Stratocaster 1956 Heavy Relic SP</span>
+                        <span>4,999.99 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>              
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/gretsch lrl.jpg" alt="">
+                        <span>GRETSCH G5655TG Electromatic LRL</span>
+                        <span>848.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/gretsch_orange.jpg" alt="">    
+                        <span>GRETSCH G5422TG Classic GH LRLOS</span>
+                        <span>821.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/silver.jpg" alt="">
+                        <span>PRS SE Silver Sky Storm Gray</span>
+                        <span>969.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+            </div>
+        <!--SEGUNDA FILA-->
+            <div class="itemrow">
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/ac_taylor.jpg" alt="">
+                        <span>Taylor PS14ce <br>2021</span>
+                        <span>10.999,00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/prs_blue.jpg" alt="">
+                        <span>PRS SE Custom 24 Faded Blue</span>
+                        <span>744.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/banjo.jpg" alt="">
+                        <span>Deering Goodtime Americana Banjo</span>
+                        <span>494.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/ac_martin.jpg" alt="">
+                        <span>Martin <br>000-10E</span>
+                        <span>1,091.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+            </div>
+        <!--TERCERA FILA-->
+            <div class="itemrow">
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/acust.jpg" alt="">
+                        <span>Ibanez Signature Tim Henson TOD10N</span>
+                        <span>599.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/shur.jpg" alt="">
+                        <span>SUHR Mateus Asato Signature Antique Shell Pink HSS</span>
+                        <span>4,555.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/bajo_amII.jpg" alt="">
+                        <span>Fender American Pro II P-Bass MN</span>
+                        <span>2,119.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="Producto1.html">
+                        <img src="../images/lista_de_productos/bajo_5c.jpg" alt="">
+                        <span>Cort A5 Plus FMMH OPBC</span>
+                        <span>869.00 &euro;</span>
+                        <span class="añadircarrito">Añadir al carrito</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!--FOOTER-->
+<footer>
+    <!--sección izquierda del footer-->
+        <div id="mapa" >
+            <h3>SOBRE NOSOTROS</h3>
+            <div style="width: 100%"><iframe width="500" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=es&amp;q=Retiro+(MusicDream)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>
+        </div> 
+    <!--sección central del footer-->
+        <div id="privacidad"> 
+            <h3>INFORMACIÓN</h3>
+            <div>Envíos</div>
+            <div>Politica de privacidad</div>
+            <div>Garantía de nuestros productos</div>
+            <div>Devoluciones</div>
+            <div>Telf:917585534</div>
+            <div>Email:atencionalcliente@at.com</div>
+        </div>
+    <!--sección derecha del footer-->
+        <div id="redes">
+            <h3 id="tituloredes">REDES SOCIALES</h3>
+            <div id="logosredes">
+                <a href="https://www.instagram.com/kieselguitars/" target="_blank"><span><img id="instagram" src="../images/logo_instagram.png" alt=""></span></a>
+                <a href="https://twitter.com/kiesel_guitars?lang=es" target="_blank"><span><img id="x" src="../images/logo_x.png" alt=""></span></a>
+                <a href="https://www.facebook.com/kieselguitars/?locale=es_ES" target="_blank"><span><img id="facebook" src="../images/logo_facebook.png" alt=""></span></a>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

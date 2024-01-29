@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrearCuenta</title>
+    <link rel="stylesheet" href="../CSS/CrearCuenta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--HEADER-->
+    <header> <!--borrar id que no se usen-->
+        <a href="./Pagina principal.html"><div class="header"><img id="logoprincipal" src="../images/logo_general.jpg" alt=""></div></a>        
+        <div class="header" id="buscador">Buscar...</div>
+    <!--3 iconos de la derecha superior-->
+        <div id="header_right">
+            <a href="./Inicio Sesión.html"><div class="header"><img id="registro" src="../images/logo_login.png" alt=""></div></a>            
+            <div class="header"><img id="favorito" src="../images/logo_fav.png" alt="favoritos"></div>
+            <div class="header"> <img id="carrito" src="../images/logo_shopping_cart.png" alt="carrito"></div>
+        </div>
+    </header>
+
+<!--BARRA DE NAVEGACIÓN-->
+    <nav class="cuadros">
+        <div class="categorias">
+            <a href="ListadoProductos.html"><div class="subcat">Guitarras</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Bajos</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Teclados</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Percusión</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Otros Instrumentos</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Accesorios</div></a>
+            <a href="Builder.html"><div class="subcat">Construcción</div></a>
+            <a href="ListadoProductos.html"><div class="subcat">Servicio de reparación</div></a>
+        </div>
+    </nav>
+
+    <main>
+        <form action="/pagina.php">
+            <section>
+                <h1>CREAR CUENTA</h1>
+                
+                <span id="iniciosesion" >YA TIENES UNA CUENTA? <span><a href="Inicio Sesión.html" target="_blank"> INICIA SESION </a></span></span>
+                
+    <!--INFO DE USUARIO-->
+                <div class="casilla">
+                    <span>NOMBRES</span>
+                    <input type="text" required>
+                </div>
+                <div class="casilla">
+                    <span>APELLIDOS</span> 
+                    <input type="text" required>
+                </div>
+                <div class="casilla">
+                    <span>FECHA NACIMIENTO </span>
+                    <input type="date">
+                </div>
+                <div class="casilla">
+                    CORREO ELECTRONICO <input type="email">
+                </div>
+                <div class="casilla">
+                    Contraseña <input type="password" required>
+                </div>
+                <div class="casilla">
+                    REPETIR CONTRASEÑA <input type="password" required>
+                </div>
+                <div class="casilla">
+                    TELEFONO <input type="tel">
+                </div>
+                <div class="casilla">
+                    DNI <input type="text" required>
+                </div>
+                <div class="casilla">
+                    ADJUNTAR FOTO DNI <input type="file">
+                </div>
+
+    <!--DATOS DE ENVIO-->
+                <h2>DATOS DE ENVIO</h2> 
+                <div class="casilla">
+                    <span>Comunidad Autónoma </span>
+                    <select>
+                        <option value="">Elige una provincia...</option>
+                        <option value="">Andalucía</option>
+                        <option value="">Aragón</option>
+                        <option value="">Asturias</option>
+                        <option value="">Cantabria</option>
+                        <option value="">Castilla-La Mancha</option>
+                        <option value="">Castilla y León</option>
+                        <option value="">Cataluña</option>
+                        <option value="">Extremadura</option>
+                        <option value="">Galicia</option>
+                        <option value="">Islas Baleares</option>
+                        <option value="">Islas Canarias</option>
+                        <option value="">La Rioja</option>
+                        <option value="">Madrid</option>
+                        <option value="">Murcia</option>
+                        <option value="">Navarra</option>
+                        <option value="">País Vasco</option>
+                        <option value="">Valencia</option>
+                        <option value="">Ceuta</option>
+                        <option value="">Melilla</option>
+                    </select>
+                </div>
+                
+                <div class="casilla">
+                    <span>Dirección De Entrega</span> 
+                    <input type="text" required>
+                </div>
+                
+                <div id="botones">
+                    <input class="boton" type="submit" value="Guardar Cambios">
+                    <input class="boton" type="reset" value="Descartar Cambios">
+                </div>
+            </section>
+        </form>
+    </main>
+
+<!--FOOTER-->
+    <footer>
+    <!--sección izquierda del footer-->
+        <div id="mapa" >
+            <h3>SOBRE NOSOTROS</h3>
+            <div style="width: 100%"><iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=es&amp;q=Retiro+(MusicDream)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Sat Navs</a></iframe></div>
+        </div> 
+    <!--sección central del footer-->
+        <div id="privacidad"> 
+            <h3>INFORMACIÓN</h3>
+            <div>Envíos</div>
+            <div>Politica de privacidad</div>
+            <div>Garantía de nuestros productos</div>
+            <div>Devoluciones</div>
+            <div>Telf:917585534</div>
+            <div>Email:atencionalcliente@at.com</div>
+        </div>
+    <!--sección derecha del footer-->
+        <div id="redes">
+            <h3 id="tituloredes">REDES SOCIALES</h3>
+            <div id="logosredes">
+                <a href="https://www.instagram.com/kieselguitars/" target="_blank"><span><img id="instagram" src="../images/logo_instagram.png" alt=""></span></a>
+                <a href="https://twitter.com/kiesel_guitars?lang=es" target="_blank"><span><img id="x" src="../images/logo_x.png" alt=""></span></a>
+                <a href="https://www.facebook.com/kieselguitars/?locale=es_ES" target="_blank"><span><img id="facebook" src="../images/logo_facebook.png" alt=""></span></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
