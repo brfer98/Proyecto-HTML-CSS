@@ -3,6 +3,10 @@ body{
     margin: 0;
 }/*coger colores mas claros*/
 
+#main{
+    flex: 1;
+}
+
 header{
     display: flex;
     justify-content: space-evenly;
@@ -140,26 +144,42 @@ nav{
                 }                
 
 
+
+
+
+
+
+
+
+
+
+
 footer{
     display: flex;
     justify-content: space-around;
     color: white;
     background-color: black;
-    position: relative;
+    
     width: 100%;
     padding-bottom: 2em;
 }
-    #mapa, #privacidad, #redes{ /*las 3 secciones del footer están agrupadas*/
-        display: flex;
-        flex-direction: column;
-    }
-        #logosredes{ /*agrupa el titulo de REDES SOCIALES y los iconos*/
-            display: flex;
-            justify-content: space-around;
-        }
-            #logosredes img{
-                width: 1em;
-                height: 1em;
-            }
+
+
+#mapa, #privacidad, #redes{ /*las 3 secciones del footer están agrupadas*/
+    display: flex;
+    flex-direction: column;
+}
+
+
+#logosredes{ /*agrupa el titulo de REDES SOCIALES y los iconos*/
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#logosredes img{
+    width: 1em;
+    height: 1em;
+}
 
 
