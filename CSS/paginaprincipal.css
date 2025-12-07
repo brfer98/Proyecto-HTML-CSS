@@ -17,29 +17,34 @@ header{
 .header{
     margin: 0.5em;
 }
-    #logoprincipal{
-        width: 5em;
-        height: 5em;
-    }
-        #buscador{
-            color: white;
-            width: 35em; 
-            border-radius: 0.3em;
-            background-color: #ffa500;
-            padding-top: 0.3em;
-            padding-bottom: 0.3em;
-            padding-right: 1em;
-            text-align: end;
-        }
-    #header_right{
-        display: flex;
-    }
-        #registro, #favorito, #carrito{
-            width: 1.5em;
-            height: 1.5em;
-        }
+#logoprincipal{
+    width: 5em;
+    height: 5em;
+}
+#buscador{
+    color: white;
+    width: 35em; 
+    border-radius: 0.3em;
+    background-color: #ffa500;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-right: 1em;
+    text-align: end;
+}
+#header_right{
+    display: flex;
+}
+#registro, #favorito, #carrito{
+    width: 1.5em;
+    height: 1.5em;
+}
 
-/*BARRA DE NAVEGACION*/
+
+
+
+
+
+/*navbar*/
 nav{       
     background-color: black ;
     color: white;
@@ -47,27 +52,41 @@ nav{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     }
-    .categorias{
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-        .subcat{
-            margin: 1em;
-            padding: 0.2em;
-        }
-    nav.cuadros div.subcat:hover{
-        background-color: white;
-        color: black;
-        transition: 0.2s;
-        transform: scale(1.2);
-    }
-    a{
-        text-decoration: none;
-    }
-    nav a{
-        color: white;
-    }
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.subcat{
+    margin: 1em;
+    padding: 0.2em;
+}
+nav.cuadros div.subcat:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .cuadros{ /*agrupa 3 seeciones: las 3 img de info, las main categories y los productos en tendencia*/
