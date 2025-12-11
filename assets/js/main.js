@@ -1,6 +1,16 @@
-        const nav = document.getElementById("navbar");
-        fetch("components/navbar.html")
-            .then(r => r.text())
-            .then(d => {
-                navbar.innerHTML = d;
-            })
+// variables
+const nav = document.getElementById("navbar");
+
+
+// functions
+function callNavbar(){
+    fetch("components/navbar.html")
+    .then(r => r.text())
+    .then(d => {
+        nav.innerHTML = d;
+    })
+}
+
+
+// call functions
+document.addEventListener("DOMContentLoaded", callNavbar);
