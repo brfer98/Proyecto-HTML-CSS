@@ -172,7 +172,7 @@ nav a{
 
 
 
-
+/*
 footer{
     display: flex;
     justify-content: space-around;
@@ -184,13 +184,13 @@ footer{
 }
 
 
-#mapa, #privacidad, #redes{ /*las 3 secciones del footer están agrupadas*/
+#mapa, #privacidad, #redes{ /las 3 secciones del footer están agrupadas*
     display: flex;
     flex-direction: column;
 }
 
 
-#logosredes{ /*agrupa el titulo de REDES SOCIALES y los iconos*/
+#logosredes{ /agrupa el titulo de REDES SOCIALES y los iconos*
     display: flex;
     justify-content: space-around;
 }
@@ -199,6 +199,6 @@ footer{
 #logosredes img{
     width: 1em;
     height: 1em;
-}
+}*/
 
 
