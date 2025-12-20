@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/paginaprincipal.css">
     <link rel="stylesheet" href="assets/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
@@ -40,96 +41,46 @@
     
 
     <main id="main" class="container">
-    <!--3 cuadros de información de la tienda-->
-        <div class="cuadros"> 
-            <div class="categorias">
-                <div class="subcat">
-                    <span class="imginfo">Custom Building</span>
-                    <div><img class="imgconoc" src="../images/img_luthier.jpg" alt="Custom"></div>
-                </div>
-                <div class="subcat">
-                    <span class="imginfo">Envíos gratis a partir de 99 &euro;</span>
-                    <div><img class="imgconoc" src="../images/img_envio.png" alt="Envío gratis"></div>
-                </div>
-                <a id="imglink" href="Builder.html">
-                    <div class="subcat">
-                        <span class="imginfo">Servicio de Reparación</span>
-                        <div><img class="imgconoc" src="../images/img_reparacion.jpg" alt="Servicio de Reparación"></div>
-                    </div>
-                </a>
+        
+        <!-- fila de img principal -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                Custom Building
+                <img class="img-fluid" src="https://armonics.fr/wp-content/uploads/2019/05/BCB5795C-EAEA-404E-9B5F-96AF0D0C0093-1100x1100.jpg" alt="">
+            </div>
+            <div class="col-lg-4">
+                Envíos gratis a partir de 99 &euro;
+                <img class="img-fluid" src="https://armonics.fr/wp-content/uploads/2019/05/BCB5795C-EAEA-404E-9B5F-96AF0D0C0093-1100x1100.jpg" alt="">
+            </div>
+            <div class="col-lg-4">
+                Servicio de Reparación
+                <img class="img-fluid" src="https://armonics.fr/wp-content/uploads/2019/05/BCB5795C-EAEA-404E-9B5F-96AF0D0C0093-1100x1100.jpg" alt="">
             </div>
         </div>
+ 
 
 
+    <!-- poner un titulo -->
+
+
+    <!-- categorias -->
+ 
         <div class="container">
             <div class="row">
-                <div class="col-6 col-md-4">imagen1</div>
-                <div class="col-6 col-md-4">imagen2</div>
-                <div class="col-6 col-md-4">imagen3</div>
+                <div class="col-lg-3">guitarras</div>
+                <div class="col-lg-3">bajos</div>
+                <div class="col-lg-3">teclados</div>
+                <div class="col-lg-3">percusion</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">otros instrumentos</div>
+                <div class="col-lg-3">accesorios</div>
+                <div class="col-lg-3">construccion</div>
+                <div class="col-lg-3">servicios de reparacion</div>
             </div>
         </div>
 
 
-
-    <!--categorías principales con imágenes-->
-        <div class="cuadros">
-            <div class="tituloseccion">Categorías</div>
-            <!--fila de arriba-->
-            <div class="subcat21">
-                <div class="subcat">
-                    <span>Guitarras</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categorias_guitarra.png" alt="categoria1">
-                    </a>
-                </div>
-                <div class="subcat">
-                    <span>Bajos</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categorias_bajo.jpg" alt="categoria2">
-                    </a>
-                </div>
-                <div class="subcat">
-                    <span>Teclados</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categoria_teclado" alt="categoria3">
-                    </a>
-                </div>
-                <div class="subcat">
-                    <span>Percusión</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categorias_percusion.jpg" alt="categoria4">
-                    </a>
-                </div>
-            </div>
-
-            <!--fila de abajo-->
-            <div class="subcat22">
-                <div class="subcat">
-                    <span>Otros Instrumentos</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categorias_otrosinstrumentos.jpg" alt="categoria5">
-                    </a>
-                </div>
-                <div class="subcat">
-                    <span>Accesorios</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categorias_accesorios.png" alt="categoria6">
-                    </a>
-                </div>
-                <div class="subcat">
-                    <span>Construcción</span>
-                    <a href="Builder.html">
-                        <img class="maincategories" src="../images/img_categorias_construccion.png" alt="categoria7">
-                    </a>
-                </div>
-                <div class="subcat">
-                    <span>Servicio de Reparación</span>
-                    <a href="ListadoProductos.html">
-                        <img class="maincategories" src="../images/img_categorias_reparacion.jpg" alt="categoria8">
-                    </a>
-                </div>
-            </div>
-        </div>
 
     <!--productos en tendencia-->
         <div class="cuadros">
@@ -168,6 +119,19 @@
             </div>
         </div>
     </main>
+
+
+
+
+
+
+
+
+
+
+    <div id="carrusel"></div>
+
+
 
 
 

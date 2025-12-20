@@ -2,7 +2,8 @@
 const components = [
     document.getElementById("header"),
     document.getElementById("navbar"),
-    document.getElementById("footer")
+    document.getElementById("footer"),
+    document.getElementById("carrusel")
 ];
 
 // functions

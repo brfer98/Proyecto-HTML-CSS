@@ -1,7 +1,11 @@
 :root{
-    --primary-color: green;
+    --primary-color: #ff9853;
+    --secondary-color: #1e1cb9;
 }
 
+.bg-primary{
+    background-color: var(--primary-color) !important;
+}
 
 .btn-primary{
     background-color: var(--primary-color);
