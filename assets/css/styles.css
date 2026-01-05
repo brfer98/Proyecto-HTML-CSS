@@ -1,6 +1,7 @@
 :root{
     --primary-color: #ff9853;
     --secondary-color: #1e1cb9;
+    overscroll-behavior: none; /* avoids overscroll in laptops*/
 }
 
 .bg-primary{
